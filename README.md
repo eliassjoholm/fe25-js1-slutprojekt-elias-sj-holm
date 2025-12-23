@@ -1,0 +1,1 @@
+Jag har skapat en hemsida med tmdb api som jag har använt för att visa filmer och personer från api på min hemsida. och jag har även gjort så att man kan söka på personer och filmer från api tmdb.
