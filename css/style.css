@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.homepageh1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  padding: 20px;
+  background: lightblue;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movieCard {
+  width: 150px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movieCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movieCard h3 {
+  font-size: 15px;
+}
+
+.movieCard p {
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#peopleContainer,
+#moviesContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.personCard,
+.movieCard {
+  width: 150px;
+  background: lightgreen;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.personCard img,
+.movieCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.box {
+  padding: 20px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.searchBtn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
